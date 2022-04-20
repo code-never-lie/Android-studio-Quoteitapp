@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="2dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="9dp"
+    app:cardCornerRadius="5dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:id="@+id/notification_single_layout"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Category Name"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:layout_weight="75"
+            android:id="@+id/notification_Category"
+
+            />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            style="?android:borderlessButtonStyle"
+            android:src="@drawable/notification_icon"
+            android:scaleType="centerInside"
+            android:id="@+id/notifiocation_icon_btn"
+
+
+
+            />
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

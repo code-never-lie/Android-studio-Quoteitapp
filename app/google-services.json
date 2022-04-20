@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "130692560840",
+    "firebase_url": "https://quotations-app.firebaseio.com",
+    "project_id": "quotations-app",
+    "storage_bucket": "quotations-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130692560840:android:20aa39f5b4d65b7d",
+        "android_client_info": {
+          "package_name": "com.iodevs.quoteit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130692560840-gsnho14hte93jev9edlepl4efh0qf5kf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iodevs.quoteit",
+            "certificate_hash": "2dc13a43a5d56e3e066e36a54329c5b27ed5b5b0"
+          }
+        },
+        {
+          "client_id": "130692560840-qq3fl2gmp4paf3nr0591upvibe0gnldl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkH8gNesq1qe_8peyPJS2krI_9ug-7zZU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130692560840-qq3fl2gmp4paf3nr0591upvibe0gnldl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
